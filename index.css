@@ -1,0 +1,145 @@
+nav{
+    align-items: center;
+    height:5rem;
+    background-color: rgb(3,37,65);
+}
+nav ul li{
+    color:white;
+}
+.first-container{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    color: white;
+    background-image: url('https://i.ytimg.com/vi/f3wuVs_SNKs/maxresdefault.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem 3rem;
+}
+input{
+    padding: 5px;
+}
+.card{
+    display: flex;
+    margin-left: 1rem;
+    min-width:auto;
+    border:none;
+    background-color: transparent;
+}
+.card-img-top{
+    width: 10rem;
+}
+.card-title{
+    width:5rem;
+}
+.card-text{
+    width:7rem;
+}
+
+.movie-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow-x: scroll;
+}
+.uchinchi_konteyner{
+    background-image: url("https://www.themoviedb.org/t/p/original/91UV7pNcDPhIzJl7EuK36sK5vRG.jpg");
+    background-repeat: no-repeat;
+    overflow-x: scroll;
+}
+.tortinchi_container{
+overflow-x: scroll;
+    background-image: url("https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=2000");
+    background-repeat: no-repeat;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    background-image:url(https://www.soyuz.ru/public/uploads/files/2/7261278/201904052118510debe831c8.jpg) ;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    padding: 3rem 3rem;
+}
+.random-1{
+background-color:orange;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin:4rem;
+}
+
+.div-movie{
+    display:flex;
+}
+.movie-container{
+    min-width: auto;
+}
+footer{
+display: flex;
+width:100%;
+justify-content: space-between;
+background-color: #03243E;
+padding: 2rem 5rem;
+height: 20rem;
+}
+.about{
+display: flex;
+flex-direction: row;
+}
+#moviedb_id{
+    width: 10rem;
+    height: 10rem;
+}
+.basics{
+    color: white;
+    list-style: none;
+}
+.something{
+    color: white;
+    list-style: none;
+}
+.community{
+    color: white;
+    list-style: none;
+}
+.info{
+    color: white;
+    list-style: none;
+}
+
+@media only screen and (max-width: 650px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: #03243E;
+        height: auto;
+        }
+        #moviedb_id{
+            width: 5rem;
+            height: 5rem;
+        }
+        .basics{
+            margin-bottom: 2rem;
+        }
+        #comunity{
+            margin-bottom: 2rem;
+        }
+        #comunity button{
+            margin-top: 1rem;
+            font-size: 0.4rem;
+            width: 8rem;
+        } 
+        .info{
+            margin-bottom: 2rem;
+        }
+        .community{
+        margin-bottom: 2rem;
+        }
+        .something{
+            margin-bottom: 2rem;
+        }
+        #icons{
+            display: none;
+        }
+  }
